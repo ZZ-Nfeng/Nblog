@@ -3,12 +3,12 @@
 <mapper namespace="top.naccl.mapper.SiteSettingMapper">
 
     <!--查询站点设置-->
-    <select id="getList" resultType="top.naccl.entity.SiteSetting">
+    <select id="getList" resultType="com.nfeng.entity.SiteSetting">
         select * from site_setting
     </select>
 
     <!--查询友链页面信息-->
-    <select id="getFriendInfo" resultType="top.naccl.entity.SiteSetting">
+    <select id="getFriendInfo" resultType="com.nfeng.entity.SiteSetting">
         select * from site_setting where type=4
     </select>
 

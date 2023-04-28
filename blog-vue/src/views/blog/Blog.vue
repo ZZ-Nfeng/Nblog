@@ -26,12 +26,12 @@
 								<i class="small clock icon"></i><span>阅读时长≈{{ blog.readTime }}分</span>
 							</div>
 							<a class="item m-common-black" @click.prevent="bigFontSize=!bigFontSize">
-								<div data-inverted="" data-tooltip="点击切换字体大小" data-position="top center">
+								<div data-inverted="" data-tooltip="点击切换字体大小" data-position="com center">
 									<i class="font icon"></i>
 								</div>
 							</a>
 							<a class="item m-common-black" @click.prevent="changeFocusMode">
-								<div data-inverted="" data-tooltip="专注模式" data-position="top center">
+								<div data-inverted="" data-tooltip="专注模式" data-position="com center">
 									<i class="book icon"></i>
 								</div>
 							</a>
@@ -45,7 +45,7 @@
 					<div class="typo js-toc-content m-padded-tb-small match-braces rainbow-braces" v-viewer :class="{'m-big-fontsize':bigFontSize}" v-html="blog.content"></div>
 					<!--赞赏-->
 					<div style="margin: 2em auto">
-						<el-popover placement="top" width="220" trigger="click" v-if="blog.appreciation">
+						<el-popover placement="com" width="220" trigger="click" v-if="blog.appreciation">
 							<div class="ui orange basic label" style="width: 100%">
 								<div class="image">
 									<div style="font-size: 12px;text-align: center;margin-bottom: 5px;">一毛是鼓励</div>

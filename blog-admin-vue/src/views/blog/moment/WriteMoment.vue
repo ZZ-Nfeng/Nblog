@@ -1,6 +1,6 @@
 <template>
 	<div>
-		<el-form :model="form" label-position="top">
+		<el-form :model="form" label-position="com">
 			<el-form-item label="动态内容" prop="content">
 				<mavon-editor v-model="form.content"/>
 			</el-form-item>

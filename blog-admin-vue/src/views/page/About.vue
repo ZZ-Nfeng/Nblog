@@ -1,6 +1,6 @@
 <template>
 	<div>
-		<el-form :model="form" :rules="formRules" ref="formRef" label-position="top">
+		<el-form :model="form" :rules="formRules" ref="formRef" label-position="com">
 			<el-form-item label="标题" prop="title" style="width: 50%">
 				<el-input v-model="form.title" placeholder="请输入标题"></el-input>
 			</el-form-item>

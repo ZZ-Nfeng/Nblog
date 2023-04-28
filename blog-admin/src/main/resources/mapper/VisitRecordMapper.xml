@@ -2,7 +2,7 @@
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
 <mapper namespace="top.naccl.mapper.VisitRecordMapper">
 
-    <resultMap id="visitRecord" type="top.naccl.entity.VisitRecord">
+    <resultMap id="visitRecord" type="com.nfeng.entity.VisitRecord">
         <id property="id" column="id"/>
         <result property="pv" column="pv"/>
         <result property="uv" column="uv"/>
@@ -15,7 +15,7 @@
     </select>
 
     <!--添加访问记录-->
-    <insert id="saveVisitRecord" parameterType="top.naccl.entity.VisitRecord" useGeneratedKeys="true" keyProperty="id">
+    <insert id="saveVisitRecord" parameterType="com.nfeng.entity.VisitRecord" useGeneratedKeys="true" keyProperty="id">
         insert into visit_record (pv, uv, date) values (#{pv}, #{uv}, #{date})
     </insert>
 </mapper>

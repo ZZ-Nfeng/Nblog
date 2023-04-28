@@ -46,7 +46,7 @@
 		</el-pagination>
 
 		<!--友链页面信息-->
-		<el-form label-position="top">
+		<el-form label-position="com">
 			<el-form-item label="友链页面信息">
 				<mavon-editor v-model="infoForm.content"/>
 			</el-form-item>

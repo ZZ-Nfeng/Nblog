@@ -1,6 +1,6 @@
 <template>
 	<div>
-		<el-form :model="form" :rules="formRules" ref="formRef" label-position="top">
+		<el-form :model="form" :rules="formRules" ref="formRef" label-position="com">
 			<el-row :gutter="20">
 				<el-col :span="12">
 					<el-form-item label="文章标题" prop="title">
