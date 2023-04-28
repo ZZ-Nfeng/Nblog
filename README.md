@@ -6,8 +6,6 @@ Spring Boot + Vue 博客系统
 
 自用博客
 
-预览地址：
-
 ## 后端
 
 1. 核心框架：[Spring Boot](https://github.com/spring-projects/spring-boot)
