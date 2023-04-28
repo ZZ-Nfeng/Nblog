@@ -45,7 +45,7 @@ Spring Boot + Vue 博客系统
 - 注意修改`application-dev.properties`的配置信息
   - 注意修改`token.secretKey`，否则无法保证 token 安全性
   - `spring.mail.host`及`spring.mail.port`的默认配置为阿里云邮箱，其它邮箱服务商参考关键字`spring mail 服务器`（邮箱配置用于接收/发送评论提醒）
-- 如需部署，注意将`/blog-view/src/plugins/axios.js`和`/blog-cms/src/util/request.js`中的`baseUrl`修改为你的后端 API 地址
+- 如需部署，注意将`/blog-vue/src/plugins/axios.js`和`/blog-admin-vue/src/util/request.js`中的`baseUrl`修改为你的后端 API 地址
 - 大部分个性化配置可以在后台“站点设置”中修改，小部分由于考虑到首屏加载速度（如首页大图）需要修改前端源码
 
 
